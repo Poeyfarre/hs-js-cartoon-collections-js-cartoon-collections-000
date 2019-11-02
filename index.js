@@ -3,7 +3,7 @@ var dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"];
 
 function dwarfRollCall(dwarves) {
   var output = '';
-  for (var i = 0; i < dwarves.length; i++) {
+  for (let i = 0; i < dwarves.length / 2; i++) {
     var dwarfString = `${i + 1}. ${dwarves[i]} `;
     output += dwarfString;
   }
@@ -48,26 +48,22 @@ function summonCaptainPlanet(arr){
 //   return arr.toUppercase() + "!";
 // }
 
-function longPlaneteerCalls(words) {
-  for(var i = 0; i < words.length; i++) {
-    if(words[i].length > 4) {
-      return true;
-    }else{
-      return false;
-    }
-  }
-}
+// function longPlaneteerCalls(words) {
+//   for(var i = 0; i < words.length; i++) {
+//     if(words[i].length > 4) {
+//       return true;
+//     }else{
+//       return false;
+//     }
+//   }
+// }
 
-var cheese = ['cheddar', 'gouda', 'camembert']; 
+// var cheese = ['cheddar', 'gouda', 'camembert']; 
 
-function findTheCheese (arr) {
-  for(var i = 0; i < arr.length; i ++) {
-    if(arr[i] === "cheddar" || arr[i]  === "gouda" || arr[i] === "camembert") {
-      return arr[i];
-    } 
-  }   
-    return "no cheese!";
-  
-}
-
+function findTheCheese(arr) 
+var newWords = []
+ for(var i =0; i < words.length; i++){
+ if (words[i][o].includes(("b")) 
+ newWords.push(arr[i])
+ return newWords
 
